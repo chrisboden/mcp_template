@@ -1,0 +1,35 @@
+{
+  "name": "MCP Simple Tool Server",
+  "description": "A simple MCP server that exposes a website fetching tool",
+  "repository": "https://github.com/kirill-markin/weaviate-mcp-server",
+  "keywords": ["python", "mcp", "fetch", "web", "tool"],
+  "env": {
+    "MCP_SERVER_PORT": {
+      "description": "Port to run the server on",
+      "value": "8000",
+      "required": false
+    },
+    "MCP_SERVER_HOST": {
+      "description": "Host to bind the server to",
+      "value": "0.0.0.0",
+      "required": false
+    },
+    "DEBUG": {
+      "description": "Enable debug mode",
+      "value": "false",
+      "required": false
+    },
+    "MCP_USER_AGENT": {
+      "description": "Custom User-Agent for website fetching",
+      "value": "MCP Test Server (github.com/modelcontextprotocol/python-sdk)",
+      "required": false
+    }
+  },
+  "stack": "container",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+} 
