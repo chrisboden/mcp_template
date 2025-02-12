@@ -1,4 +1,5 @@
 # MCP Server Template for Cursor IDE
+[![smithery badge](https://smithery.ai/badge/@chrisboden/mcp_template)](https://smithery.ai/server/@chrisboden/mcp_template)
 
 A simple template for creating custom tools for Cursor IDE using Model Context Protocol (MCP). Create your own repository from this template, modify the tools, and connect them to your Cursor IDE.
 
@@ -120,15 +121,12 @@ Available environment variables (can be set in `.env`):
 
 ### Installing via Smithery
 
-[![smithery badge](https://smithery.ai/badge/@kirill-markin/example-mcp-server)](https://smithery.ai/server/@kirill-markin/example-mcp-server)
-
-To install MCP Server Template for Cursor IDE for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kirill-markin/example-mcp-server):
+To install MCP Server Template for Cursor IDE for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@chrisboden/mcp_template):
 
 ```bash
-npx -y @smithery/cli install @kirill-markin/example-mcp-server --client claude
+npx -y @smithery/cli install @chrisboden/mcp_template --client claude
 ```
 
 ### Glama server review
 
 <a href="https://glama.ai/mcp/servers/jgisqn8zco"><img width="380" height="200" src="https://glama.ai/mcp/servers/jgisqn8zco/badge" alt="Server Template for Cursor IDE MCP server" /></a>
-
