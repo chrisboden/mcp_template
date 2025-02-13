@@ -4,6 +4,8 @@ A simple template for creating custom tools for Cursor IDE using Model Context P
 
 ![Server Mood Response](docs/images/server-mood.png)
 
+<a href="https://glama.ai/mcp/servers/85awdn6qjl"><img width="380" height="200" src="https://glama.ai/mcp/servers/85awdn6qjl/badge" alt="Server Template for Cursor IDE MCP server" /></a>
+
 ## Quick Start
 
 1. Click "Deploy to Heroku" button
